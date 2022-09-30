@@ -11,6 +11,16 @@ h4 {
   font-family: "Raleway", sans-serif;
 }
 
+a {
+  color: #f4f8f9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dee7eb;
+  text-decoration: none;
+}
+
 /*--------------------------------------------------------------
 # Header #1E2931
 --------------------------------------------------------------*/
@@ -273,6 +283,35 @@ section {
   font-size: 18px;
 }
 
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 996;
+  background: #1e2931;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-top:hover {
+  background: #797b7d;
+  border: 3px solid #1e2931;
+}
+
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
