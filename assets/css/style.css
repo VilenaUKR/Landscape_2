@@ -121,7 +121,7 @@ header .info i {
 }
 
 header .info h4 {
-  padding: 0 0 0 60px;
+  padding: 0 0 0 40px;
   font-size: 19px;
   font-weight: 600;
   margin-bottom: 5px;
@@ -130,7 +130,7 @@ header .info h4 {
 
 header .info p {
   margin-bottom: 30px;
-  margin-left: 60px;
+  margin-left: 25px;
   font-size: 14px;
   color: #fdf9f9;
   width: 200%;
